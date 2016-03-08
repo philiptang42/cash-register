@@ -123,3 +123,15 @@ cashRegister.scan("chocolate", 3);
 
 //Show the total bill
 console.log('Your bill is '+cashRegister.total);
+---------------------------
+// create a constructor for the StaffMember class
+var StaffMember = new Object(); {
+  name = name;
+  discountPercent = discountPercent;
+};
+
+var sally = new StaffMember("Sally",5);
+var bob = new StaffMember("Bob",10);
+
+//Create a StaffMember for yourself called me
+var me = new StaffMember("Phil", 20);
